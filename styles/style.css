@@ -1,14 +1,19 @@
+html {
+	margin: 10%;
+}
+
 #customBody {
 	margin-top: 1%;
 	margin-right: 5%;
 	margin-left: 5%;
 	margin-bottom: 5%;
 	font-family: "Oxygen";
-	background-color: rgba(38, 12, 12, 0.08);
+	/*background-color: rgba(38, 12, 12, 0.08);*/
 }
 
 h1 {
 	color: purple;
+	padding-top: 2px;
 }
 
 .customnav {
@@ -18,4 +23,9 @@ h1 {
 	background: -webkit-linear-gradient(-45deg, rgba(252,255,244,1) 0%,rgba(223,229,215,1) 40%,rgba(179,190,173,1) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(135deg, rgba(252,255,244,1) 0%,rgba(223,229,215,1) 40%,rgba(179,190,173,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.navbar {
+
+	border: 1px ridge #FFF;
 }
