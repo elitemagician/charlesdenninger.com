@@ -50,3 +50,13 @@ padding-top: 10px;
 .nav-item a:hover {
             color: #FFA500 !important;
             cursor: pointer;
+}
+
+.jcenter {
+	margin: 10%;
+	text-align: left;
+}
+
+.lbut {
+	padding-top: 10px;
+}
