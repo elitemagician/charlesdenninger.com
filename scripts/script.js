@@ -1,25 +1,21 @@
-$(document).ready(function() {
- $(".pdf").click(function() {
-  $.fancybox({
-   'width': '70%', // or whatever
-   'height': '90%',
-   'autoDimensions': false,
-   'content': '<embed src="'+this.href+'#nameddest=self&page=1&view=FitH,0&zoom=80,0,0" type="application/pdf" height="99%" width="100%" />',
-   'onClosed': function() {
-     $("#fancybox-inner").empty();
-   }
-  });
-  return false;
- }); // pdf 
-}); // ready
+// alert("Hello World");
 
-$(document).ready(function() {
-/* Apply fancybox to multiple items */
+// $(document).ready(function() {
+//  $(".pdf").click(function() {
+//   $.fancybox({
+//    'width': '70%', // or whatever
+//    'height': '90%',
+//    'autoDimensions': false,
+//    'content': '<embed src="'+this.href+'#nameddest=self&page=1&view=FitH,0&zoom=80,0,0" type="application/pdf" height="99%" width="100%" />',
+//    'onClosed': function() {
+//      $("#fancybox-inner").empty();
+//    }
+//   });
+//   return false;
+//  }); // pdf 
+// }); // ready
 
-$("a.iframe").fancybox({
-'width': 640, // or whatever you want
-'height': 480, // or whatever you want
-'type': 'iframe'
-});
-
-});
+$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
