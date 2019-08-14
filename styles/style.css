@@ -78,7 +78,7 @@ hr.my-4 {
 .mainimg {
   width: 50%;
   height: auto;
-  border-radius: 100%;
+  border-radius: 50%;
 }
 
 .jumbotron {
