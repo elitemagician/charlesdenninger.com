@@ -77,8 +77,9 @@ hr.my-4 {
 
 .mainimg {
   width: 50%;
-  height: auto;
-  border-radius: 50%;
+  height: auto%;
+  clip-path: circle(35% at 50% 50%);
+  /* border-radius: 50%; */
 }
 
 .jumbotron {
