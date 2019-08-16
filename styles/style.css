@@ -77,7 +77,7 @@ hr.my-4 {
 
 .mainimg {
   width: 50%;
-  height: auto%;
+  height: auto;
   clip-path: circle(35% at 50% 50%);
   /* border-radius: 50%; */
 }
@@ -86,4 +86,24 @@ hr.my-4 {
 	margin-top: 1%;
 	background-color:transparent !important
 	
+}
+
+.cform {
+	margin-top: 5%;
+	width:  50%;
+	margin-left: 25%;
+	text-align: left;
+	border: 5px ridge #FFA500;
+	border-radius: 40px 40px 40px 40px;
+	padding: 50px;
+}
+
+.contact{
+	margin-top: 5%;
+
+}
+
+.ebtn{
+	padding:  50px 0 0 0;
+	text-align: center;
 }
