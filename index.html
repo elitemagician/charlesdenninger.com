@@ -57,26 +57,30 @@
 				<h2>Contact me</h2>
 			</div>
 			<div class="cform">
-			<div class="form-group">
-				<label for="exampleFormControlInput1">Email address</label>
-				<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required="true">
+				<div class="form-group">
+					<label for="exampleFormControlInput1">Email address</label>
+					<input type="email" class="form-control" id="exampleFormControlInput1" name="email" placeholder="name@example.com" required="true">
+				</div>
+				<div class="form-group">
+					<label for="exampleFormControlSelect1">Reason for contact</label>
+					<select class="form-control" id="exampleFormControlSelect1" name="reasons">
+						<option>Full time position</option>
+						<option>Contract work</option>
+						<option>Other</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="exampleFormControlTextarea1">Comments</label>
+					<textarea class="form-control" id="exampleFormControlTextarea1" name="comments" rows="3" maxlength="350" ></textarea>
+				<div class="form-group">
+							<label for="exampleFormControlFile1"></label>
+							<input type="file" class="form-control-file" id="exampleFormControlFile1" name="upload">
+						</div>
+						<div class="ebtn">
+						<button type="submit" class="btn btn-primary">Submit</button>
+					</div>
+				</div>
 			</div>
-			<div class="form-group">
-				<label for="exampleFormControlSelect1">Reason for contact</label>
-				<select class="form-control" id="exampleFormControlSelect1">
-					<option>Full time position</option>
-					<option>Contract work</option>
-					<option>Other</option>
-				</select>
-			</div>
-			<div class="form-group">
-				<label for="exampleFormControlTextarea1">Comments</label>
-				<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" maxlength="350" ></textarea>
-				<div class="ebtn">
-				<button type="submit" class="btn btn-primary">Submit</button>
-			</div>
-			</div>
-		</div>
 		</form>
 		<!-- <======SCRIPTS=====> -->
 		<script src="https://code.jquery.com/jquery.js"></script>
