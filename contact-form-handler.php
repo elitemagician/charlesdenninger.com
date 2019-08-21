@@ -40,8 +40,8 @@ try {
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'You have a professional inquiry from charlesdenninger.com';
-    $mail->Body    = $comments;
-    $mail->AltBody = $comments;
+    $mail->Body    = '$reasons <br>$comments';
+    $mail->AltBody = $reasons $comments;
 
     $mail->send();
     echo 'Message has been sent';
